@@ -1,5 +1,3 @@
-# Fatima Fellowship
-
 ## Question 1
 
 When a prompt is missing some details, current AI models tend to silently assume them and generate the output based on those assumptions. If the model doesn't mention the assumption, the user never knows about it. I've seen this happen many times while using AI tools, so I looked into it more closely and found that it's a blind spot of AI models.
