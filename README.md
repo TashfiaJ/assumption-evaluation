@@ -16,6 +16,13 @@ It also has a thinking mode, so it reasons step by step before it answers, like 
 
 It is open-weight (Apache 2.0), and it runs on a single A100 GPU in Colab.
 
+
+- Model: [Qwen/Qwen3.5-4B](https://huggingface.co/Qwen/Qwen3.5-4B) (Apache 2.0)
+- Version: commit `851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a` (last updated 2 March 2026)
+- The model files are in the `model/` folder of this bucket.
+- Settings: thinking mode on, temperature 1.0, top_p 0.95, top_k 20, min_p 0, presence penalty 1.5, up to 32,768 output tokens, one answer per prompt, vLLM on an A100 in Colab
+
+
 ### Dataset
 
 To test the gap, I built my own logic puzzles, based on the design of a benchmark called QuestBench. Each puzzle gives some facts about a person, 43 to 85 rules like "If Tariq is devout and thick-browed, he is sponsored", and one yes or no question.
